@@ -1,0 +1,13 @@
+Changelog version 1.5.1 - Jun 24 2021
+
+Fix
+
+- Partner can't login after registration
+- Media upload error in Settings
+
+New
+
+- [Add-on] Bokun.io API 
+- Add SEO tool for static pages - Read more
+- Show available calendar in single home
+- Service tabs can be sorted in the search form
