@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
+Route::get("/test",function(){
+    echo "testing route";
+});
+
 Route::group(['prefix' => Config::get('awebooking.prefix_dashboard'), 'middleware' => ['authenticate', 'locale']], function () {
 
     Route::get('/', 'DashboardController@index')->name('dashboard');
